@@ -1,0 +1,198 @@
+/* Afeez Cloud Portfolio - Main Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0b1120;
+    color: #e5e7eb;
+    line-height: 1.7;
+}
+
+header {
+    text-align: center;
+    padding: 70px 20px;
+    background: linear-gradient(135deg, #0f172a, #1d4ed8);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+header p {
+    font-size: 1.1rem;
+    color: #bfdbfe;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 18px;
+    background-color: #111827;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: #93c5fd;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+section {
+    margin: 35px 0;
+    padding: 30px;
+    background-color: #111827;
+    border: 1px solid #263449;
+    border-radius: 12px;
+}
+
+h2 {
+    color: #60a5fa;
+    margin-bottom: 18px;
+}
+
+h3 {
+    color: #bfdbfe;
+    margin-bottom: 10px;
+}
+
+section p {
+    margin-bottom: 12px;
+}
+
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+article {
+    padding: 20px;
+    background-color: #172033;
+    border-radius: 8px;
+}
+
+a {
+    transition: color 0.2s ease;
+}
+
+#contact a {
+    color: #60a5fa;
+}
+
+footer {
+    text-align: center;
+    padding: 25px 15px;
+    background-color: #070b14;
+    color: #9ca3af;
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 45px 15px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav {
+        gap: 15px;
+    }
+
+    section {
+        padding: 20px;
+    }
+}
+/* Enhanced Hero Section */
+
+.hero {
+    padding: 90px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #0f172a, #1d4ed8);
+}
+
+.eyebrow {
+    color: #93c5fd;
+    letter-spacing: 3px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    margin-bottom: 15px;
+}
+
+.hero-subtitle {
+    color: #bfdbfe;
+    font-size: clamp(1.1rem, 3vw, 1.6rem);
+    margin-bottom: 20px;
+}
+
+.hero-description {
+    max-width: 650px;
+    margin: 0 auto 30px;
+    color: #e5e7eb;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 22px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.primary-button {
+    background-color: #60a5fa;
+    color: #0b1120;
+}
+
+.secondary-button {
+    border: 1px solid #bfdbfe;
+    color: #ffffff;
+}
+
+.button:hover {
+    opacity: 0.85;
+}
+
+@media (max-width: 600px) {
+    .hero {
+        padding: 60px 18px;
+    }
+}
